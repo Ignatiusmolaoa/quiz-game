@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ignatius Quiz Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Quiz Game by Ignatius 🧠</h1>
+    
+    <div id="category-container">
+      <h3>Select a Category:</h3>
+      <button class="category-btn" data-category="general">General Knowledge</button>
+      <button class="category-btn" data-category="math">Math</button>
+      <button class="category-btn" data-category="history">History</button>
+      <button class="category-btn" data-category="science">Science</button>
+      <button class="category-btn" data-category="anime">Anime</button>
+    </div>
+
+    <div id="question-container" style="display: none;">
+      <p id="question">Loading...</p>
+      <div id="answer-buttons" class="btn-container"></div>
+    </div>
+
+    <button id="next-btn" style="display: none;">Next</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
